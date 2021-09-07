@@ -1,9 +1,17 @@
 import './App.css';
+import {ChatEngine} from 'react-chat-engine';
+import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-<h1>Welcome to the beginning</h1>
+<ChatEngine
+height='100vh' 
+projectID=''
+userName=''
+userSecret=''
+/>
     </div>
   );
 }
