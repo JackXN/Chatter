@@ -14,7 +14,7 @@ height='100vh'
 projectID='7b350b1e-4fc6-4fcb-8f15-c51ba1f2e2e5'
 userName='jackxn'
 userSecret='2001'
-renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps}
+renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps}/>}
 />
 </div>
 
@@ -25,11 +25,3 @@ renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps}
 export default App;
 
 
-{/* <ChatEngine
-height='100vh' 
-projectID='
-7b350b1e-4fc6-4fcb-8f15-c51ba1f2e2e5'
-userName='jackxn'
-userSecret='2001'
-renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps}
-/> */}
