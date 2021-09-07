@@ -1,11 +1,11 @@
 import React from 'react'
 
-function MessageForm() {
+function MyMessage() {
     return (
         <div>
-            Message Form
+            My Message
         </div>
     )
 }
 
-export default MessageForm
+export default MyMessage
