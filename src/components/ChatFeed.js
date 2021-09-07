@@ -1,9 +1,12 @@
 import React from 'react'
 
-function ChatFeed() {
+function ChatFeed(props) {
+
+    console.log(props);
+
     return (
         <div>
-            
+            ChatFeed
         </div>
     )
 }

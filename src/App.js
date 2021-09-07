@@ -8,7 +8,6 @@ function App() {
   return (
 
 <div className='App'>
-
 <ChatEngine 
 height='100vh'
 projectID='7b350b1e-4fc6-4fcb-8f15-c51ba1f2e2e5'
