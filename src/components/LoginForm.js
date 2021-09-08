@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import axios from 'axios';
 
 
-const projectID = '';
+const projectID = '7b350b1e-4fc6-4fcb-8f15-c51ba1f2e2e5';
 
 
 
@@ -19,7 +19,7 @@ const authObject = {'Project-ID': projectID, 'User-Name': username, 'User-Secret
 
 
 try {
-    await axios.get('https://api.chatengine.io/chats', {headers: authObject});
+ axios.get('https://api.chatengine.io/chats', {headers: authObject});
 
     localStorage.setItem('username',username);
     localStorage.setItem('password',password);
