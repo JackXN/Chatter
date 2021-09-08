@@ -13,7 +13,9 @@ const [error, setError] = useState('')
 
 
 const handleSubmit = (e) => {
+e.preventDefault();
 
+const authObject = {'Project-ID': projectID, 'User-Name': username, 'User-Secret': password};
 }
 
 
