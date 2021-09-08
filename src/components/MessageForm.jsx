@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {sendMessage, isTyping} from 'react-chat-engine';
-import {AiOutlineSend as Send, AiOutlinePicture as Picture} from 'react-icons';
+import {AiOutlineSend as Send, AiOutlinePicture as Picture} from 'react-icons/ai';
 
 
 
@@ -21,6 +21,12 @@ const handleChange = (e) => {
 }
 
 
+const handleUpload = (e) => {
+
+
+}
+
+
     return (
         <form className='message-form' onSubmit={handleSubmit}>
             <input
@@ -32,9 +38,16 @@ const handleChange = (e) => {
             />
             <label htmlFor='upload-button'>
                 <span className='image-button'>
-
+                <Picture className='picture-icon'/>
                 </span>
             </label>
+            <input
+            type='file'
+            multiple={false}
+            id='upload-button'
+            style={{display:'none'}}
+            onChange={handleUpload}
+            />
            
         </form>
     )
