@@ -23,7 +23,7 @@ try {
 
     localStorage.setItem('username',username);
     localStorage.setItem('password',password);
-   
+
 } catch(err) {
     setError('Oops, incorrect credentials')
 }
