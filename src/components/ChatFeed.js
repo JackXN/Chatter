@@ -1,5 +1,5 @@
 import MyMessage from './MyMessage';
-import TheirMessage from './OtherMessage';
+import TheirMessage from './TheirMessage';
 import MessageForm from './MessageForm';
 
 const ChatFeed = (props) => {
@@ -13,7 +13,7 @@ const ChatFeed = (props) => {
       className="read-receipt"
       style={{
         float: isMyMessage ? 'right' : 'left',
-        backgroundImage: message.sender && `url(${message.sender.avatar})` ,
+        backgroundImage: person.person.avatar && `url(${person.person.avatar})`,
       }}
     />
   ));

@@ -14,8 +14,8 @@ function App() {
 <ChatEngine 
 height='100vh'
 projectID={projectID}
-userName='jackxn'
-userSecret='2001'
+userName='tonyadams'
+userSecret='123123'
 renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
 />
 </div>
