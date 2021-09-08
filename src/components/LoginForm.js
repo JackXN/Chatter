@@ -23,7 +23,7 @@ try {
 
     localStorage.setItem('username',username);
     localStorage.setItem('password',password);
-    window.location.reload();
+   
 } catch(err) {
     setError('Oops, incorrect credentials')
 }
@@ -36,7 +36,7 @@ try {
     return (
         <div className='wrapper'>
             <div className='form'>
-                <h1 className='title'>Chat Application</h1>
+                <h1 className='title'>Chatter</h1>
                 <form onSubmit={handleSubmit}>
                     <input type='text' value={username} onChange={(e) => setUsername(e.target.value)} className='input' placeholder='username' required/>
                     <input type='password' value={password} onChange={(e) => setPassword(e.target.value)} className='input' placeholder='Password' required/>
