@@ -1,10 +1,19 @@
 import React from 'react'
 
 function MessageForm() {
+
+const handleSubmit = () => {
+
+}
+
+
     return (
-        <div>
-            Message Form
-        </div>
+        <form className='message-form' onSubmit={handleSubmit}>
+            <input
+            
+            />
+           
+        </form>
     )
 }
 
